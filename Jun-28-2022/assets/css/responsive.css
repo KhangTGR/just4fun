@@ -1,0 +1,29 @@
+/*Mobile*/
+@media (max-width: 740px) {
+    #nav > li {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .menu-btn {
+        float: right;
+    }
+
+    #header .menu-btn:hover {
+        background-color: rgb(113, 193, 3);
+        cursor: pointer;
+    }
+    
+    #header .menu-icon {
+        color: #fff;
+        font-size: 15px;
+        line-height: 46px;
+        padding: 12px 24px;
+        font-weight: 1000;
+    }
+
+    
+}

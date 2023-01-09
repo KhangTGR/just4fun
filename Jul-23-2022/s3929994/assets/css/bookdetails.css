@@ -1,0 +1,165 @@
+#book {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-content {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.book-content__link {
+    display: flex;
+    align-self: flex-start;
+    margin: 5px 0;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+
+
+.book-content__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.book-content__container-book-img {
+    width: 25%;
+    border: 1px solid var(--border-color);
+}
+
+.book-content__container-img {
+    margin: 0 20px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.book-content__container-img h6 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.book-content__container-img-container {
+    padding: 5px 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-content__container-img-container img {
+    border: 1px solid var(--border-color);
+    width: 32%;
+}
+
+.book-content__booking {
+    border: 1px solid var(--border-color);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.book-content__booking-price {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid var(--border-color);
+    margin-top: 10px;
+}
+
+.book-content__booking-price h5 {
+    display: flex;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--text-color);
+}
+
+.book-content__booking-price span {
+    color: var(--text-color);
+    display: flex;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    margin: 10px 0;
+}
+
+.book-content__booking-cart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--text-color);
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.book-content__booking-cart-btn p {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: var(--text-color);
+    margin: 10px;
+}
+
+.book-content__booking-cart-btn img {
+    width: 50px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+
+
+.book-content__description {
+    width: 100%;
+    border-top: 1px solid var(--border-color);
+    padding: 0 10px;
+    padding-top: 10px;
+}
+
+.book-content__description-heading {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--text-color);
+    font-weight: 600;
+    border-left: 10px solid var(--border-color);
+    padding-left: 10px;
+}
+
+.book-content__description-info {
+    margin: 0 20px;
+    margin-top: 10px;
+}
+
+.book-content__description-info h3 {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: var(--text-color);
+    margin: 5px 0;
+}
+
+.book-content__description-info p {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: var(--text-color);
+    text-align: justify;
+}
